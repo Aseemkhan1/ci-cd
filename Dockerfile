@@ -5,7 +5,7 @@ FROM nginx:latest
 COPY index.html /usr/share/nginx/html/
 
 # Copy the image file into the container
-COPY your-image.png /usr/share/nginx/html/
+COPY image.png /usr/share/nginx/html/
 
 # Expose port 80
 EXPOSE 80
