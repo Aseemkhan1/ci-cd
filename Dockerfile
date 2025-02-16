@@ -8,8 +8,9 @@ COPY index.html /usr/share/nginx/html/
 COPY Dev1.jpg /usr/share/nginx/html/
 COPY Dev2.jpg /usr/share/nginx/html/
 COPY Dev3.jpg /usr/share/nginx/html/
-
-
+COPY brid1.jpg /usr/share/nginx/html/
+COPY brid2.jpg /usr/share/nginx/html/
+COPY brid3.jpg /usr/share/nginx/html/
 # Expose port 80
 EXPOSE 80
 
